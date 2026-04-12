@@ -6,8 +6,8 @@
 
 ## Dados do aluno
 
-- **Cartão UFRGS**: <mark>`<preencher>`</mark>
-- **Nome**: <mark>`<preencher>`</mark>
+- **Cartão UFRGS**: <mark>00242318</mark>
+- **Nome**: <mark>Leonardo Junqueira</mark>
 
 ## Passos que eu segui para resolver o problema especificado (em formato de *"prompt"*)
 
@@ -30,20 +30,24 @@
 > - Novamente, lembre-se que você *não pode utilizar ferramentas
 >   de IA para escrever este relatório*
 
-<mark>`<preencher>`</mark>
+<mark>- Gere um movimento circular do objeto bunny em torno do eixo Y.
+- Gere um movimento de orbita do objeto sphere ao redor do objeto bunny.
+- Gere um movimento senoidal do objeto bunny transladando em relação ao eixo Y.
+- Faça 1 bunny a cada 4 fazer o movimento de rotação para frente em torno do eixo X.</mark>
 
 ## Principais dificuldades encontradas durante o desenvolvimento (formato livre)
 
-<mark>`<preencher>`</mark>
+<mark>Minha maior dificuldade foi fazer os objetos fazerem os movimentos de maneira correra, a sincronização dos pulos e o coelhos que executam a rotação pra frente caírem no chão com os pés para baixo, mas principalmente o movimento senoidal do coelho.</mark>
 
 ## Você acha que conseguiu resolver o problema de forma adequada?
 
-<mark>`<preencher>`</mark>
+<mark>Acredito que a maioria sim, algumas coisas foram na tentativa e erro, daí como funcionou não quis mais alterar.</mark>
 
 ## Se você quiser compartilhar mais alguma coisa, coloque aqui:
 
-<mark>`<preencher>`</mark>
+<mark>Na parte do salto do coelho se colocar a função do seno dentro da função fabs(...) o coelho dá a impressão de estar realmente saltando:
+float bunny_jump = fabs(sin(phase)) * 0.6f;</mark>
 
 ## Se você possui alguma sugestão para o professor sobre esta atividade, coloque aqui:
 
-<mark>`<preencher>`</mark>
+<mark>Nada a sugerir.</mark>
